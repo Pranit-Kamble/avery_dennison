@@ -1,4 +1,6 @@
 .footer_container{
+    font-family: 'Aktifo';
+    font-weight: 400;
     display: flex;
     justify-content: space-evenly;
     color: #FFFFFF;
@@ -6,6 +8,10 @@
     height: 200px;
     width: 100%;
     align-items: center;
+}
+@font-face {
+  font-family: Aktifo;
+  src: url('../Font/Demo_Fonts/Fontspring-DEMO-aktifoa-medium.otf');
 }
 .footer_icon{
     height: 70px;
