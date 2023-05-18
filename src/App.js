@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import './App.css'
 import Footer from './Componets/Footer/Footer'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const App = () => {
   const handleclose=()=>{
@@ -21,6 +23,7 @@ const App = () => {
     inputs.forEach(element => {
       element.value=''
     });
+
     document.getElementsByTagName('form')[0].style.visibility='hidden'
   }
   return (
@@ -66,7 +69,7 @@ const App = () => {
             <li style={{marginTop:'25px'}}>The high gloss finish enhances the appearance of graphics and adds a special touch to help your graphics stand out.</li>
             <li style={{marginTop:'25px'}}>Our digital overlaminates can be used on a variety of substrates, including banners, vehicle graphics, outdoor signage, and more.</li>
           </ul>
-          <a onClick={handleclick} href='#form'><button className='inquire_btn'>Inquire now</button></a>
+          <a onClick={handleclick} href='#form'><button className='inquire_btn'>Inquire now <FontAwesomeIcon icon={faArrowRight} size='l' /></button></a>
         </div>
       </div>
       <div className='card card3'>
@@ -109,7 +112,7 @@ const App = () => {
             <p>Trust our products with confidence, as we offer industry leading durability assurance for our overlaminate films.</p>
           </div>
           </div>
-        <a onClick={handleclick} href='#form'><button className='callback_btn'>Request a call back</button></a>
+        <a onClick={handleclick} href='#form'><button className='callback_btn'>Request a call back <FontAwesomeIcon icon={faArrowRight} size='l' /></button></a>
         </div>
       </div>
       <form  action='#' onSubmit={handlesubmit} id='form'>
@@ -166,7 +169,7 @@ const App = () => {
           <p>I'd like to receive promotions, product information and service offers from Avery Dennison.</p>
         </div>
         <div style={{display:'flex',justifyContent:'center',width:'100%'}}>
-        <button  className='submit_btn'>Submit</button>
+        <button  className='submit_btn'>Submit <FontAwesomeIcon icon={faArrowRight} size='l' /></button>
         </div>
       </form>
     <div className='pop'>

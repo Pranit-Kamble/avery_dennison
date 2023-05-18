@@ -200,7 +200,8 @@ button:hover{
   background-image: url('./Componets/Images/Group\ 110.svg');
 }
 form{
-  font-family: 'Aktifo';
+  font-family: 'Aktifo-light';
+  font-weight: bold;
   visibility: hidden;
   /* transition: all 1s linear; */
   /* animation: show 2s linear 1; */
