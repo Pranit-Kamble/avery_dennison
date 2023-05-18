@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Aktifo';
+    src: local('Aktifo A Light'), local('Aktifo-A-Light'),
+        url('Aktifo-A-Light.woff2') format('woff2'),
+        url('Aktifo-A-Light.woff') format('woff'),
+        url('Aktifo-A-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
